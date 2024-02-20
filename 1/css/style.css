@@ -1,0 +1,28 @@
+:root{
+    --pink-color:  #e94545;
+    --grey-color:rgb(88, 84, 84)0; 
+    --red-color:#b40c0c;
+    --grin-color:#63bb20;
+    --yello-color:#beb20a;
+}
+
+div+h3{
+    color: var(--pink-color);
+}
+
+greycol{
+    color: var(--grey-color);
+}
+
+
+p:first-of-type{
+    color: var(--red-color);
+}
+
+h3+p{
+    color: var(--grin-color);
+} 
+
+.yellow{
+    color: var(--yello-color);
+} 
